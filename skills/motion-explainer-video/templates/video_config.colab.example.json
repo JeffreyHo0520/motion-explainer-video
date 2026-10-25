@@ -1,0 +1,16 @@
+{
+  "_comment": "Colab runner configuration for motion-explainer-video using minimax-h3-colab",
+  "runner": [
+    "python",
+    "C:/Users/User/.gemini/config/skills/motion-explainer-video/scripts/colab_runner.py",
+    "{spec}",
+    "--out",
+    "{out}",
+    "--prompt",
+    "{prompt}",
+    "--first-frame",
+    "{first_frame}",
+    "--gpu",
+    "A100"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "_comment": "How THIS machine generates MiniMax H3 clips. Default: the reference runner scripts/h3_runner.py talking to ComfyUI (replace <me> with this skill's folder, python with your interpreter; add \"--comfy\", \"http://host:8188\" for a remote server; check first with: python h3_runner.py --check). Placeholders filled in by ai_video.py run: {spec} = shot spec JSON, {out} = clip folder, {prompt} = <out>/prompt.txt, {first_frame} = absolute path of the first-frame still (empty if none). Any other runner works if it writes <out>/clip.mp4.",
+  "runner": ["python", "<me>/scripts/h3_runner.py", "{spec}", "--out", "{out}", "--prompt", "{prompt}", "--first-frame", "{first_frame}"]
+}
